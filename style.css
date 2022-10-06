@@ -151,6 +151,7 @@ input[type=checkbox]:checked ~ .menu{
 
 body {
     background-image: url('sunset.jpg');
+    opacity: 85%;
     width: auto;
     height: 100%;
     background-position: center top;
@@ -201,20 +202,15 @@ body {
     flex-direction: column;
     text-align: justify;
     margin: 0 25px 0 25px;
+    padding: 40px;
     background: #ffffff;
     opacity: 70%;
     max-width: 650px;
     min-height: 400px;
     border-radius: 15px;
-
 }
 
-.title {
-    height: 30px;
-    position: top;
-}
-
-.bx-bulb {
+.bx {
     margin-top: 35px;
 }
 
@@ -222,6 +218,23 @@ body {
     padding: 40px 50px 25px 50px;
     line-height: 25px;
 }
+
+.objetivo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ideas {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* ----------RESPONSIVE---------- */
 
