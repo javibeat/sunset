@@ -187,23 +187,7 @@ body {
     to { transform: scale(1.4); }
 }
 
-.ideaprincipal {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.objetivo {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.ideas {
+.seccion {
     height: 100vh;
     display: flex;
     flex-direction: column;
