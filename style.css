@@ -239,7 +239,16 @@ body {
 /* ----------RESPONSIVE---------- */
 
 @media (max-width: 768px) {
+
+    body {
+        opacity: 85%;
+    }
+
     .home img {
         width: 100%;
+    }
+
+    .box {
+        padding: 20px;
     }
  }
