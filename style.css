@@ -195,30 +195,6 @@ body {
     align-items: center;
 }
 
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: justify;
-    margin: 0 25px 0 25px;
-    padding: 40px;
-    background: #ffffff;
-    opacity: 70%;
-    max-width: 650px;
-    min-height: 400px;
-    border-radius: 15px;
-}
-
-.bx {
-    margin-top: 35px;
-}
-
-.texto {
-    padding: 40px 50px 25px 50px;
-    line-height: 25px;
-}
-
 .objetivo {
     height: 100vh;
     display: flex;
@@ -233,6 +209,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.bx {
+    margin-top: 35px;
+}
+
+.texto {
+    padding: 40px 50px 25px 50px;
+    line-height: 25px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 25px 0 25px;
+    padding: 40px;
+    background: #ffffff;
+    opacity: 70%;
+    max-width: 650px;
+    min-height: 450px;
+    border-radius: 15px;
 }
 
 
