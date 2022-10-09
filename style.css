@@ -61,7 +61,7 @@ li {
 }
    
 .dropdown {
-    background-color: #fffad1;
+    background-color: #ffffff;
     padding: 1em 0;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
@@ -80,7 +80,7 @@ li {
 }
    
 .dropdown li:hover {
-    background-color: #fffad1;
+    background-color: #ffffff;
 }
 
 .services:hover .dropdown {
@@ -153,6 +153,7 @@ body {
     background-image: url('playa.jpeg');
     width: auto;
     height: 100%;
+    opacity: 80%;
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
@@ -164,7 +165,6 @@ body {
 
 .home {
     background: white;
-    opacity: 85%;
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -255,10 +255,6 @@ body {
 /* ----------RESPONSIVE---------- */
 
 @media (max-width: 768px) {
-
-    .home {
-        opacity: 85%;
-    }
     
     .home img {
         width: 100%;
