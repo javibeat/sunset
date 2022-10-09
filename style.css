@@ -196,7 +196,7 @@ body {
 }
 
 .objetivo {
-    background: rgb(0, 0, 0);
+    background-image: url('agua.png');
     height: 100vh;
     display: flex;
     flex-direction: column;
