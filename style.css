@@ -256,13 +256,34 @@ body {
 
 @media (max-width: 768px) {
 
-    body {
+    .home {
         opacity: 85%;
     }
 
-    .home img {
-        width: 100%;
+    .objetivo {
+        background-image: url('sunset.jpg');
+        width: auto;
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
     }
+    
+    .ideas {
+        background-image: url('beach.jpeg');
+        width: auto;
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+    }
+    
 
     .box {
         padding: 20px;
