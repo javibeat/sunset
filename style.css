@@ -227,7 +227,7 @@ body {
     align-items: center;
 }
 
-.bx {
+.bx bxs-chevrons-down {
     margin-top: 35px;
 }
 
@@ -250,7 +250,6 @@ body {
     min-height: 450px;
     border-radius: 15px;
 }
-
 
 /* ----------RESPONSIVE---------- */
 
@@ -289,3 +288,24 @@ body {
         padding: 40px 10px 20px 10px;
     }
  }
+
+
+ #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #01aae7;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #myBtn:hover {
+    background-color: #32caf0;
+  }
