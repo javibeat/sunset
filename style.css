@@ -150,8 +150,7 @@ input[type=checkbox]:checked ~ .menu{
 /* RESPONSIVE MENU END */
 
 body {
-    background-image: url('sunset.jpg');
-    opacity: 85%;
+    background-image: url('playa.jpeg');
     width: auto;
     height: 100%;
     background-position: center top;
@@ -165,6 +164,7 @@ body {
 
 .home {
     background: white;
+    opacity: 85%;
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -196,8 +196,15 @@ body {
 }
 
 .objetivo {
-    background-image: url('agua.png');
+    background-image: url('sunset.jpg');
+    width: auto;
     height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,8 +212,15 @@ body {
 }
 
 .ideas {
-    background: linear-gradient(rgb(255, 255, 255), rgb(0, 191, 255));
+    background-image: url('beach.jpeg');
+    width: auto;
     height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
