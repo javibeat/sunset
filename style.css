@@ -195,6 +195,24 @@ body {
     align-items: center;
 }
 
+.objetivo {
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ideas {
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 191, 255));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .bx {
     margin-top: 35px;
 }
