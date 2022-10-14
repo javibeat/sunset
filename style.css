@@ -273,7 +273,7 @@ body {
     flex-direction: column;
     text-align: justify;
     margin: 0 25px 0 25px;
-    padding: 35px;
+    padding: 30px;
     background: #ffffff;
     max-width: 1080px;
     min-height: 450px;
@@ -289,6 +289,9 @@ body {
     }
 
     .logos img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         width: 100px;
     }
 
@@ -333,6 +336,7 @@ body {
 
     .boxcd {
         margin: 40px 20px 40px 20px;
+        padding: 40px 5px 20px 5px;
     }
 
     .cd {
@@ -346,6 +350,7 @@ body {
         width: 100%;
         margin: 10px;
     }
+
  }
 
 
