@@ -282,6 +282,86 @@ body {
 
 /* ----------RESPONSIVE---------- */
 
+@media (max-width: 920px) {
+    
+    .home img {
+        width: 80%;
+    }
+
+    .logos img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100px;
+    }
+
+    .seccion {
+        height: auto;
+        background: #d0d0d0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seccioncd {
+        height: auto;
+        background: #d0d0d0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .objetivo {
+        background-image: url('sunset.jpg');
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+    }
+    
+    .ideas {
+        background-image: url('beach.jpeg');
+        width: 100%;
+        height: auto;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+    }
+    
+
+    .box {
+        margin: 40px 20px 40px 20px;
+        padding: 40px 5px 20px 5px;
+    }
+
+    .boxcd {
+        margin: 50px 20px 50px 20px;
+        padding: 40px 5px 20px 5px;
+    }
+
+    .cd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cds {
+        width: 80%;
+        margin: 10px;
+    }
+
+ }
+
 @media (max-width: 768px) {
     
     .home img {
