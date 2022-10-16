@@ -282,7 +282,7 @@ body {
 
 /* ----------RESPONSIVE---------- */
 
-@media (max-width: 920px) {
+/* @media (max-width: 920px) {
     
     .home img {
         width: 80%;
@@ -360,7 +360,7 @@ body {
         margin: 10px;
     }
 
- }
+ } */
 
 @media (max-width: 768px) {
     
